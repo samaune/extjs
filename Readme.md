@@ -7,12 +7,16 @@ This is the Sencha Ext JS Framework Package, or just "ext" for short.
 Install [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
-npm install --save @extjs/ext
+npm install --save extjs-gpl
 ```
 
-## Dependencies
+## Sencha CMD
 
-This will need [@extjs/ext-build](https://github.com/sencha/extjs-reactor/tree/2.0.x-dev/packages/ext-build) to work.
+This will need [Sencha Cmd Doc](https://docs.sencha.com/cmd/guides/intro_to_cmd.html) to work.
 
-This will be included if you generate the application using [@extjs/ext-gen](https://github.com/sencha/extjs-reactor/tree/2.0.x-dev/packages/ext-gen)
-
+```bash
+sencha upgrade --check
+sencha [category] [command] [options...] [arguments...]
+sencha help [module] [action]
+sencha -info app watch
+```
