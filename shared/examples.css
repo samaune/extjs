@@ -4,6 +4,8 @@
  * licensing@sencha.com
  * http://www.sencha.com/license
  */
+@import url('font-awesome-4.7.0/css/font-awesome.min.css');
+
 body {
     padding:20px;
     padding-top:32px;
