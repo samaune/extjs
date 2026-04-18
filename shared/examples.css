@@ -12,6 +12,11 @@ body {
     font-family:helvetica,tahoma,verdana,sans-serif;
     font-size:13px;
 }
+.fa, .x-fa {
+	font-family: FontAwesome !important;
+}
+.green { color: #81cb31 !important; }
+.red { color: #dd6550 !important; }
 p {
     margin-bottom:15px;
 }
